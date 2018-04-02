@@ -1,4 +1,4 @@
-# acme-ohmyzsh Puppet Module
+# ohmyzsh Puppet Module
 
 This is the [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) module. It installs oh-my-zsh for a user and changes their shell to zsh. It also can configure themes and plugins for users.
 
@@ -8,17 +8,13 @@ This module is called ohmyzsh as Puppet does not support hyphens in module names
 
 ## Installation
 
-### From Puppet Forge
-
-```bash
-  $ puppet module install acme/ohmyzsh
-```
+### From Puppet Forge (not yet)
 
 ### From source
 
 ```bash
   $ cd PUPPET_MODULEDIR
-  $ git clone https://github.com/acme/puppet-acme-oh-my-zsh ohmyzsh
+  $ git clone https://github.com/mmaonline/puppet-oh-my-zsh ohmyzsh
 ```
 
 ## Usage
@@ -52,11 +48,11 @@ Apache License, Version 2.0.
 
 Contact
 -------
-
-Leon Brocard acme@astray.com
+Repo maintained by: Mihai Mustea mihai.mustea@gmail.com
+Created by: Leon Brocard acme@astray.com
 
 
 Support
 -------
 
-Please log tickets and issues at [GitHub](https://github.com/acme/puppet-acme-oh-my-zsh)
+Please log tickets and issues at [GitHub](https://github.com/mmaonline/puppet-oh-my-zsh)
